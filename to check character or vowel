@@ -1,0 +1,7 @@
+x=input("enter the charcter")
+if x.lower() in ['a','e','i','o','u']:
+  print("vowel")
+else:
+  print("constant")
+enter the charcterv
+constant
