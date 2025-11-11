@@ -1,0 +1,10 @@
+year =int(input("enter the year"))
+if year%4==0:
+  print("leap year")
+else:
+  print("not leap" ) 
+enter the year2021
+not leap
+enter the year2024
+leap year
+
