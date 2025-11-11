@@ -1,0 +1,25 @@
+num= int(input("enter a number"))
+if num%2==0  and num>0:
+  print("even and positive")
+elif num%2==0 and num<0:
+  print("even and negative")
+elif num%2!=0 and num>0:
+  print("odd and positive")
+elif num%2!=0 and num>0:
+  print("odd and negative")
+else:
+  print("number is zero")  
+
+
+enter a number7
+odd and positive
+enter a number2
+even and positive
+enter a number-2
+even and negative
+
+
+
+
+
+
