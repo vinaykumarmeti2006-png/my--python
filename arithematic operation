@@ -1,0 +1,20 @@
+name=(input("enter your name"))
+age=int(input("enter your age"))
+weight=float(input("enter your weight"))
+addition=a+weight
+sub=a-weight
+div=a/weight # normal division exact answer
+div2=a/weight#integer division 2.5 quotioent
+div3=a%weight
+mul=a*weight
+print("my age is",age)
+print("my weight is",weight)
+print("my name is",name)
+print(addition,sub,div,div2,div3,mul)
+enter your namevinay
+enter your age5
+enter your weight30.5
+my name is vinay
+my age is 5
+my weight is 30.5
+35.5 -25.5 0.16393442622950818 0.16393442622950818 5.0 152.5
