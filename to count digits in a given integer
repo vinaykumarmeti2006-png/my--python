@@ -1,0 +1,15 @@
+num = int(input("enter an integer:"))
+count=0
+n= abs(num)
+if n == 0:
+  count = 1
+else:
+     while n > 0:
+      n//=10
+      count+=1
+      print("number of digits:",count)
+enter an integer:2345
+number of digits: 1
+number of digits: 2
+number of digits: 3
+number of digits: 4
