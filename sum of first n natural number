@@ -1,0 +1,12 @@
+n=int(input("enter number:"))
+i = 1
+sum = 0
+while i<=n:
+  sum=sum+1
+  i +=1
+print("sum of first:",n,"natural number is:", sum)
+
+
+enter number:5
+sum of first: 5 natural number is: 5
+
