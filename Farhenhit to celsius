@@ -1,0 +1,5 @@
+# function of farhenheit to celsius 
+def farhenheit_to_celsius(fahrenheit):
+    return (fahrenheit - 32)*5/9
+farhenheit_to_celsius(100)
+37.77777777777778
